@@ -1,0 +1,206 @@
+/* start Global pour changer les line de la page */
+*{
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+/* End Global */ 
+
+
+/*Start body  pour changer le type d'entrer  */
+body{
+	font-family: Arial ,Tahoma;
+}
+/* End Body:  */
+
+ 
+/* start Header pour changer le color de promagic est le header */
+.main{
+	color: #DDD;
+	background-color: #333;
+	padding: 20px;
+	text-align: center;
+}
+/* End Header */
+
+
+/* start main */
+main{
+	background-color: #EEEEEE;
+	padding: 20px;
+}
+main p{
+	text-align: center;
+	font-family: Arial ,tahoma;
+	font-size: 20px;
+}
+main p span{
+	font-weight: bold;
+	color: #888;
+}
+main form {
+	padding: 20px;
+	
+}
+main form input{
+	border: 1px solid;
+    padding: 10px;
+	color: #DDD;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* End main */
+/* start Span Magic */
+.Magic{
+	font-weight: bold;
+	color:black ; 
+}
+/* End Span Magic */
+
+/* Start Navigation */
+nav{
+	background-color: #DDD;
+}
+/* End Navigation */
+
+
+
+/* start Nav ul */
+nav ul {
+	padding: 20px;                        /* pour faire un espace entre header est la list  */
+	text-align: center;                   /* pour décaler la list a centre de site */
+}
+/* End Navigation ul */
+
+
+/* start Navigation ul li Style */
+nav ul li{
+	display: inline-block;                /* pour organiser les line des list sur un line  */
+	padding: 10px;
+}
+nav ul li:after{
+	content:"    ";/* pour pose un bare entre les élements de liste  */
+	padding: 30px;
+	
+}
+nav ul li:last-child:after{               /* pour effacer la barre qui reste a la fin de list | */
+	content: "";
+          }
+/* End Navigation */
+
+
+/* start ul pour changer le volume de line */
+ul{
+	font-size: 20px;
+}
+/* end ul */
+
+ 
+/* start Articles  pour faire un espace entre les line des articles */  
+div{
+	width: 80%;
+	float: left;
+}
+div article{
+	background-color: #DDD;
+	padding: 10px;
+	border: 1px solid #FFF;
+	margin: 30px;
+}
+div article header{
+	background-color: #E2E2E2;
+	padding: 30px;
+}
+
+div article header p{
+	padding: 9px;
+}
+/* End articles  */
+
+/* Start Article de section   */
+
+div article section{
+	background-color: #FFF;
+	padding: 20px;
+}
+/* End articles section  */
+/*Start 
+
+/* start Aside */
+
+aside{
+	width: 20%;
+	float: right;
+	
+}
+
+aside ul{
+	background-color: #E0D8D8;
+	margin: 30px;
+	padding: 20px;
+	border: 1px solid #CCC;
+	text-align: center;
+	
+}
+aside ul h3{
+	background-color: #D1D1D1;
+	padding: 10px;
+}
+aside ul li{
+	margin-top: 20px;
+	
+}
+ul {
+	list-style: none;
+}
+
+/* end Aside  */
+/* Start article details summary */
+
+
+article details summary{
+	margin: 20px;
+}
+
+article details lu li{
+	list-style: none;
+	padding: 10px;
+}
+/* End article details summary */
+/* Start Footer */
+footer{
+	background-color: #333;
+	padding: 10px;
+	color: #FFF;
+	text-align: center;
+	clear: both;
+	
+}
+/* End Footer */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
